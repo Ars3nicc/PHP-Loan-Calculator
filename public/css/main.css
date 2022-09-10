@@ -9,26 +9,37 @@
 body {
     padding: 20px;
 }
-form{
+.form-container{
     height: auto;
-    width: 50%;
+    width: 30%;
     border: solid 2px #C41616;
-    padding: 10px;
     border-radius: 5px;
     border-top: solid 10px #C41616;
+}
+form{
+    padding: 10px;
 }
 .header{
     font-size: 25px;
     font-weight: bold;
 }
-table{
-    padding-top: 20px;
+.fields{
+    padding: 20px;
 }
+.txt-input, select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 
 .btn{
     background-color: #C41616;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     width: 150px;
     padding: 10px;
@@ -46,4 +57,13 @@ table{
 .button-set{
     padding: 10px;
 }
+.output-field{
+    background-color: #EFEFEF;
+    color: #9C9C9C;
+    padding: 15px;
+    font-size: 15px;
 
+}
+.data{
+    font-weight: bold;
+}
